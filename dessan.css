@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+.icon {
+    margin-top: 5px;
+    margin-left: 230px;
+    position: absolute;
+}
+.title h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: aqua;
+    padding: 30px 30px 30px 30px;
+    margin-top: -12px;
+}
+.start h1 {
+    text-align: center;
+    font-size: 80px;
+}
+.x {
+    text-align: center;
+    font-size: 30px;
+}
+.display {
+    display: flex;
+    justify-content: space-around;
+}
+.click {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.main {
+    margin-left: 270px;
+}
+.main img {
+    border: solid black;
+}
+.main h2 {
+    border-left: solid;
+    padding-left: 20px;
+    font-family: Comic Sans MS;
+}
+
+
+
+.water {
+    display: flex;
+}
+.bottle {
+    display: flex;
+}
+.hand {
+    display: flex;
+}
+
+.first {
+    width: 43%;
+}
+.first img {
+    width: 39%;
+    position: relative;
+    left: 170px;
+}
+
+.second {
+    width: 43%;
+}
+.second img {
+    width: 40%;
+    position: relative;
+    left: 170px;
+}
+
+.third {
+    width: 43%;
+}
+.third img {
+    width: 40%;
+    position: relative;
+    left: 170px;
+}
+
+.explain {
+    margin-top: 80px;
+}
+.a{
+    font-size: 2rem;
+}
+.b{
+    font-size: 1rem;
+}

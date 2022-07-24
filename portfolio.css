@@ -1,0 +1,211 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after,*::before {
+    box-sizing: inherit;
+}
+
+.title {
+    background-image: url(forest.webp);
+    opacity: 0.9;
+    font-family: Comic Sans MS;
+}
+.title h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    padding: 30px 30px 30px 30px;
+    margin-top: -12px;
+    color: aliceblue;
+}
+
+
+
+.about {
+    position: relative;
+    font-family: Comic Sans MS;
+    margin-top: 80px;
+}
+.about h1 {
+    position: relative;
+    left: 150px;
+    font-size: 40px;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+.name {
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    left: -80px;
+    text-align: center;
+}
+.name h2 {
+    font-size: 70px;
+    position: relative;
+}
+.name h3 {
+    font-size: 30px;
+}
+.about img {
+    width: 20%;
+    height: 10%;
+    margin-left: 10%;
+    color: white;
+}
+
+.works {
+    margin-bottom: 150px;
+}
+.works h1 {
+    font-size: 40px;   
+}
+.letter {
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    top: 100px;
+    margin-bottom: 300px;
+    font-family: Comic Sans MS;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: -130px;
+}
+.list img {
+    width: 80%;
+}
+
+
+
+.conatct {
+    position: relative;
+    margin-top: 100px;
+    border: solid;
+}
+.contact h1 {    
+    position: relative;
+    left: 150px;
+    font-size: 40px;
+    font-family: Comic Sans MS;
+}
+.mail p {
+    font-size: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.btn2 {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 220px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 350;
+    background-color: #8AC75A;
+    border-radius: 99990vh;
+    position: relative;
+    top: 80px;
+    padding-top: 20px;
+    position: relative;
+    top: -20px;
+  }
+    
+.btn2:hover {
+      text-decoration: none;
+      background-color: #8AC75A;
+}
+.btn2 a {
+    text-align: center;
+}
+.ti p {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 30px;
+}
+.image {
+    display: flex;
+    justify-content: center;
+
+}
+.twitter {
+    width: 10%;
+}
+.insta {
+    width: 10%;
+}
+
+.fixed {
+    position: fixed;
+    
+}
+span {
+    background-color: #8AC75A;
+    background:linear-gradient(transparent 40%, #8AC75A 80%);
+    /*linear-gradient(transparent ◯◯%, 使用する色 ◯◯%)*/
+}
+.end {
+    margin-top: 50px;
+    background-image: url(forest.webp);
+    height: 80px;
+    padding-top: 20px;
+    color: #fff;
+}
+.end h1 {
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
+
+/*js*/
+#wrapper {
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+}
+
+
+
+
+/*== 影が拡がって浮き上がる */
+
+/*ボタンの形状*/
+.float3{
+    background: #fff;
+    border: 2.5px solid #8AC75A;
+    color: rgb(0, 0, 0);
+    padding:10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(128, 128, 128, 0.1) ;
+    /*アニメーションの設定*/
+    transition: all .3s;
+}
+
+/*hoverをしたらボックスの影が拡がり色が濃くなる*/
+.float3:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4), 0 0 50px rgba(128, 128, 128, 0.1) ;
+    border-color: transparent;
+}

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+.icon {
+    margin-top: 5px;
+    margin-left: 230px;
+    position: absolute;
+}
+.title h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: aqua;
+    padding: 30px 30px 30px 30px;
+    margin-top: -12px;
+}
+.start h1 {
+    text-align: center;
+    font-size: 80px;
+}
+.x {
+    text-align: center;
+    font-size: 30px;
+}
+.display {
+    display: flex;
+    justify-content: space-around;
+}
+
+.software {
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+    margin: 0 auto;
+    border: solid #8AC75A;
+    width: 500px;
+}
+.main {
+    margin-left: 160px;
+}
+.main img {
+    border: solid black;
+    margin-left: 150px;
+    display: inline-block;
+}
+.main h2 {
+    border-left: solid;
+    padding-left: 20px;
+}
+.click {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.parent1 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.second {
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.parent2 {
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}

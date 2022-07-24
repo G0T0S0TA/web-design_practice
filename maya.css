@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+.icon {
+    margin-top: 5px;
+    margin-left: 230px;
+    position: absolute;
+}
+.start h1 {
+    text-align: center;
+    font-size: 80px;
+}
+.x {
+    text-align: center;
+    font-size: 30px;
+}
+.display {
+    display: flex;
+    justify-content: space-around;
+}
+.click {
+    font-size: 1.2rem;
+    text-align: center;
+}
+.main {
+    margin-left: 270px;
+}
+.main img {
+    border: solid black;
+}
+.main h2 {
+    border-left: solid;
+    padding-left: 20px;
+    font-family: Comic Sans MS;
+}
+
+
+
+.flog {
+    display: flex;
+}
+.player {
+    display: flex;
+}
+
+
+.first {
+    width: 43%;
+}
+.first img {
+    width: 60%;
+    position: relative;
+    left: 100px;
+}
+
+.second {
+    width: 43%;
+}
+.second img {
+    width: 60%;
+    position: relative;
+    left: 100px;
+}
+
+
+.explain {
+    margin-top: 50px;
+}
+.a{
+    font-size: 2rem;
+}
+.b{
+    font-size: 1rem;
+}
